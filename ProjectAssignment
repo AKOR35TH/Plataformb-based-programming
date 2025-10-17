@@ -1,0 +1,47 @@
+let x = 10;
+let y = 20;
+
+let temp = x;
+x = y;
+y = temp;
+
+// After swapping: x = 20, y = 10
+//what happens here is that we use a temporary variable 'temp' 
+// to hold the value of 'x' while we assign the value of 'y' to 'x'. 
+// Then, we assign the value stored in 'temp' (which is the original value of 'x') 
+// to 'y'. This effectively swaps the values of 'x' and 'y'.
+
+//2. Simple Math with Variables
+let a = 8;
+let b = 3;
+
+let sum = a + b;
+let product = a * b;
+let average = (a + b) / 2;
+
+
+//3. Temperature Conversion
+let celsius = 25;
+
+let reaumur = (4 / 5) * celsius;
+let fahrenheit = (9 / 5) * celsius + 32;
+let kelvin = celsius + 273.15;
+
+//4. Predict the Value
+let a = 5;
+let b = 2;
+let result = a + b * a;
+
+// result = 5 + (2 * 5) = 5 + 10 = 15
+// The value of 'result' will be 15 because of operator precedence.
+//Multiplication (*) has higher precedence than addition (+), so b * a is calculated first.
+// Therefore, the expression is evaluated as a + (b * a).
+
+//5. Combine Strings
+let firstName = "John";
+let lastName = "Doe";
+
+let fullName = firstName + " " + lastName; // "John Doe"
+// Here, we concatenate the strings 'firstName' and 'lastName' with a space in between using the + operator.
+// The result is stored in the variable 'fullName'.
+//If you don’t put a space between them, it becomes "JohnDoe", which is not the desired format.
